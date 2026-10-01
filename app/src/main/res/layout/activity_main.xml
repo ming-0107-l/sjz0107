@@ -19,7 +19,7 @@
 </LinearLayout>
 <ImageView android:id="@+id/qr" android:visibility="gone" android:contentDescription="登录二维码" android:layout_gravity="center_horizontal" android:layout_marginTop="18dp" android:layout_width="260dp" android:layout_height="260dp"/>
 <TextView android:id="@+id/status" android:text="请先填写 API 地址" android:textSize="15sp" android:textColor="@color/text" android:layout_marginTop="14dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-<EditText android:id="@+id/jsonInput" android:hint="需要参数的功能可在这里输入 JSON，例如 {"id":"...","ticket":"..."}" android:gravity="top" android:inputType="textMultiLine" android:minLines="4" android:layout_marginTop="12dp" android:padding="12dp" android:layout_width="match_parent" android:layout_height="120dp"/>
+<EditText android:id="@+id/jsonInput" android:hint="需要参数的功能可在这里输入 JSON，例如 &quot;id&quot; 和 &quot;ticket&quot;" android:gravity="top" android:inputType="textMultiLine" android:minLines="4" android:layout_marginTop="12dp" android:padding="12dp" android:layout_width="match_parent" android:layout_height="120dp"/>
 <TextView android:id="@+id/result" android:text="" android:textSize="13sp" android:textColor="@color/text" android:fontFamily="monospace" android:layout_marginTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
 </LinearLayout>
 </ScrollView>
